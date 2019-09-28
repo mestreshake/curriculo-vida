@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'helvetica';
+    text-align: center;
+    padding: 50px;
+}
+.about{
+    font-size: 18pt;
+}
+
+.videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos iframe{
+    margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .videos iframe{
+        margin: 2px;
+    }
+} 
